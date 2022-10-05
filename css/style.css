@@ -1,0 +1,189 @@
+body{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgba(0, 0, 0,0.1);
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:rgba(0, 0, 0 ,0.4);
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+}
+.navbar .container-fluid .collapse ul li{
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.navbar .container-fluid .collapse ul li a{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar .container-fluid .collapse ul li a:hover{
+    color:darkorange;
+}
+
+.navbar .container-fluid .collapse ul li  a.active{
+    color:darkorange;
+}
+
+.wrapper .first{
+    background-image:url(../images/banner/home-banner.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 713px;
+    position: relative;
+}
+
+.first .card{
+    background-color:black;
+    border:none;
+    border-radius: 1rem;
+    max-width: 555px
+}
+
+.first .card .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.first .card .card-body h1{
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.first .card .card-body button{
+    border-radius:1rem;
+    position: absolute;
+    bottom: -18px;
+    background-color:darkorange;
+}
+
+section .first-card ul li a{
+    color: black;
+}
+
+
+section .first-card ul li a:hover{
+    color: darkorange;
+}
+
+
+.card-group div .card .card-body{
+    color: white;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-group div .card .first-card{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-12.jpg);   
+}
+
+.card-group div .card .second-card{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-2.jpg);
+    
+}
+.card-group div .card .third-card{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-3.jpg);
+    
+}.card-group div .card .fourth-card{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-4.jpg);
+    
+}
+.card-group div .card .fifth-card{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-5.jpg);
+    
+}
+.card-group div .card .sixth-card{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-6.jpg);
+    
+}
+.card-group div .card .card-7{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-7.jpg);
+    
+}.card-group div .card .card-8{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-8.jpg);
+    
+}
+.card-group div .card .card-9{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-9.jpg);
+    
+}
+.card-group div .card .card-10{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-10.jpg);
+    
+}
+.card-group div .card .card-11{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-11.jpg);
+    
+}
+.card-group div .card .card-12{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/gallery/gallery-12.jpg);
+    
+}
+
+.card-group div .card .card-body:hover{
+    opacity: 0.5;
+}
+
+.load_btn{
+
+    padding: 0.5rem 5rem;
+    margin: 0px auto;
+    background-color: #ffc107;
+}
+
+.about-sec{
+    border-radius: 0.5rem;
+}
+
+.elements div .card .card-body .card-title{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    word-spacing:0.3rem ;
+}
+
+.elements div .card .card-body h6{
+    letter-spacing: 0.1px;
+    word-spacing:0.1rem ;
+    line-height: 1.5rem;
+}
+
+.blogs img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+footer{
+    background-color:#111;
+}
+
+footer .follow-me ul li a i{
+    color: white;
+}
+
+.wrapper .btn_top{
+    font-size: 55px;
+    position: fixed;
+    right: 30px;
+    bottom: 45px;
+    color:darkorange;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+    section .first-card ul li a{
+    font-size: 0.7rem;
+}
+}
