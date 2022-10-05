@@ -173,14 +173,6 @@ footer .follow-me ul li a i{
     color: white;
 }
 
-.wrapper .btn_top{
-    font-size: 55px;
-    position: fixed;
-    right: 30px;
-    bottom: 45px;
-    color:darkorange;
-    cursor: pointer;
-}
 
 @media screen and (max-width: 520px) {
     section .first-card ul li a{

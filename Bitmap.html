@@ -17,12 +17,12 @@
 
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-offset="15" data-bs-target="#myScrollspy">
 
     <!-- start navbar-->
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark position-fixed">
+    <nav class="navbar navbar-expand-lg navbar-dark position-fixed" id="myScrollspy" >
         <div class="container-fluid px-5">
             <div class="navbar-brand w-25 mx-lg-5">
                 <a href="Bitmap.html"><img src="images/logo.webp"> </a>
@@ -32,21 +32,21 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse w-75" id="navbarTogglerDemo02">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link block" aria-current="page" data-scroll="home">HOME</a>
+                        <a class="nav-link block" aria-current="page"  href="#home">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link block" data-scroll="gallery">GALLERY</a>
+                        <a class="nav-link block" href="#gallery">GALLERY</a>
                     </li>
                     <li class="nav-item nav_item_1">
-                        <a class="nav-link block" data-scroll="about">ABOUT</a>
+                        <a class="nav-link block" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item nav_item_1">
-                        <a class="nav-link block" data-scroll="elements">ELEMENTS</a>
+                        <a class="nav-link block" href="#elements">ELEMENTS</a>
                     </li>
                     <li class="nav-item nav_item_1">
-                        <a class="nav-link block" data-scroll="blogs">BLOGS</a>
+                        <a class="nav-link block" href="#blogs">BLOGS</a>
                     </li>
 
                 </ul>
@@ -58,7 +58,6 @@
     <div class="wrapper">
 
         <section id="home">
-
             <div class="d-flex justify-content-center align-items-center first">
                 <div class="card text-center">
                     <div class="card-body text-white">
@@ -327,9 +326,6 @@
                 </div>
         </section>
 
-        <div class="btn_top">
-            <i class="fa fa-arrow-alt-circle-up"></i>
-        </div>
 
     </div>
 
